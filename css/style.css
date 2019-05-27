@@ -1,0 +1,253 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header starts*/
+header{
+	background-color: #3B5998;
+    overflow: hidden;
+}
+#hh1 {
+	width: 40%;
+    float: left;
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 42px;
+    color: white;
+    margin: 22px 0px 12px 152px;
+    transform: scale(.9,1);
+    letter-spacing: -1px;
+}
+.wrapper {
+	width: 42.5%;
+    overflow: hidden;
+    float: right;
+    padding-top: 9px;
+}
+.wrap_1{
+    float: left;
+    padding-top: 2px;
+    padding-right: 17px;
+}
+.label1{
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: white;
+}
+.email , .password {
+    padding: 2px;
+    width: 145px;
+    margin-top: 4px;
+    margin-bottom: 3px;
+    font-size: 12px;
+}
+.checkbox {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.info , .pass{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: white;
+    margin-top: 0px;
+    letter-spacing: 0px;
+}
+.wrap_2{
+    float: left;
+    padding-top: 2.4px;
+    padding-right: 17px;
+}
+
+.button {
+    padding: 3px;
+    float: left;
+    background-color: #4267B2;
+    border: none;
+    color: white;
+    margin-top: 24px;
+}
+.button:hover{
+	background-color: #365899;
+}
+/*header ends*/
+/*banner starts*/
+.banner {
+	background-color: #E6E9F2;
+}
+.main_wrapper {
+	width: 74%;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main_wrap_1 {
+    width: 48%;
+    padding-top: 25px;
+    float: left;
+    padding-left: 6px;
+}
+#hh2 {
+	padding-left: 0px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #0E385F;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+}
+.main_wrap_1 img{
+	padding-left: 7px;
+    width: 100%;
+}
+.main_wrap_2{
+	width: 41.6%;
+	float: right;
+}
+#hh3{
+    font-family: sans-serif;
+    font-size: 38px;
+    margin-top: 23px;
+    margin-bottom: 0px;
+}
+#hh4{
+    margin-top: 6px;
+    margin-left: 0px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.first_name ,.last_name{
+    padding: 8px;
+    border-radius: 6px;
+    border-style: ridge;
+    font-size: 17px;
+    width: 175px;
+    margin-right: 3px;
+} 
+.mail{
+	padding: 8px;
+    border-radius: 6px;
+    border-style: ridge;
+    font-size: 17px;
+    width: 379px;
+    margin-right: 3px;
+    margin-top: 7px;
+}
+.pw{
+    padding: 8px;
+    border-radius: 6px;
+    border-style: ridge;
+    font-size: 17px;
+    width: 379px;
+    margin-right: 3px;
+    margin-top: 7px;
+    margin-bottom: 19px;
+}
+
+.label2 {
+    color: #90949C;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.b_date{
+    margin-top: 7px;
+    padding: 3px;
+    width: 67px;
+    margin-bottom: 16px;
+}
+.gen{
+    margin-top: 13px;
+    margin-bottom: 7px;
+}
+span{
+ 	font-size: 20px;
+    font-family: sans-serif;
+    padding-right: 18px;
+}
+#hh5{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    color: #877777;
+    margin-right: 76px;
+    line-height: 13px;
+
+}
+.but{
+    background-color: #60964C;
+    color: floralwhite;
+    padding: 6px;
+    width: 200px;
+    border-radius: 6px;
+    border-style: solid;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-color: #588A44;
+}
+#hh6{
+	color: #66667C;
+    font-family: sans-serif;
+    font-weight: 550;
+    font-size: 13px;
+}
+a{
+	    text-decoration: none;
+}
+a:link{
+	color: #385898;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:visited{
+	color: #385898;
+}
+.but:hover{
+	background-color: #68A254;
+}
+/*banner ends*/
+/*footer starts*/
+footer{
+	background-color: white;
+    width: 100%;
+    height: 155px;
+}
+.foot_wrapper {
+	width: 72%;
+    margin: 0 auto;
+}
+.lang{
+    width: 100%;
+   	border-bottom: 1px solid #DDDFE2;
+    padding-top: 15px;
+    word-spacing: 0px;
+    padding-bottom: 10px;
+}
+.connect{
+    width: 100%;
+    padding-top: 15px;
+    word-spacing: 0px;
+    padding-bottom:17px;
+}
+.lang span , .connect span{
+    margin: 0;
+    font-size: 12px;
+    padding: 0;
+}
+.lang span:first-child a{
+	color: #90949C;
+	list-style: none;
+}
+.lang span:first-child:hover a{
+	text-decoration: none;
+}
+p{
+	color: #90949C;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
